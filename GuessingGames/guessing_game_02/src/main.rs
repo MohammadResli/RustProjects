@@ -84,7 +84,7 @@ fn main() {
         if hidden_number % guess == 0 {
             println!("Good, you are almost there.\nThe hidden number is divisible by your guess.");
         } else {
-            println!("Sad, the luck si not on you side this time.");
+            println!("Sad, the luck isn't on your side this time.");
             println!("\nThe hidden number is NOT divisible by your guess.");
         }
     }
